@@ -38,3 +38,4 @@ describe PagesController do
       response.should have_selector("title", :content => "Introduce ED's Friends l About")
     end
 end
+end
